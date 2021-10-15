@@ -1,0 +1,35 @@
+:root {
+    --bg-color-900: #131924e8;
+    --skin-color: #945555dc;
+    --text-300: #ccd6f6;
+}
+
+
+.mobile{
+    background-color: var(--bg-color-900);
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    right: -9px;
+    top: -17px;
+    padding: 39px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+}
+.close-menu{
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0px -4px 0 0 var(--skin-color);
+    padding-bottom: 3px;
+}
+
+/* @media only screen and (max-width: 900px) {
+    .close-menu{
+        font-size: 24px;
+    }
+} */

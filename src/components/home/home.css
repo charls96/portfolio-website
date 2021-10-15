@@ -1,0 +1,44 @@
+:root {
+    --bg-color-900: #131924e8;
+    --skin-color: #945555dc;
+    --text-300: #ccd6f6;
+}
+
+html {
+    scroll-behavior: smooth;            
+}
+body{
+    background-color: var(--bg-color-900);
+    color: var(--text-300);
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+.body{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+/* @media only screen and (max-width: 1024px){
+    .home{
+        width: 90%;
+    }
+    .body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+} */
+@media only screen and (max-width: 900px){
+    .home{
+        width: 90%;
+    }
+    .body{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

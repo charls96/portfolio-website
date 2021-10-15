@@ -1,0 +1,26 @@
+:root {
+    --bg-color-900: #131924e8;
+    --skin-color: #945555dc;
+    --text-300: #ccd6f6;
+}
+
+.web{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.web-option {
+    font-size: 16px;
+    margin-right: 50px;
+    font-weight: 600;
+}
+.web-option a{
+    text-decoration: none;
+    color: var(--text-300);
+    display: flex;
+    align-items: center;
+}
+.web-option a:hover{
+    color: var(--skin-color);
+}
