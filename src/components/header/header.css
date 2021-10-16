@@ -1,5 +1,5 @@
 :root {
-    --bg-color-900: #131924e8;
+    --bg-color-900: #2a2c2e;
     --skin-color: #945555dc;
     --text-300: #ccd6f6;
 }
@@ -31,7 +31,7 @@
     font-weight: 600;
     box-shadow: inset 0px -4px 0 0 var(--skin-color);
     padding-bottom: 3px;
-    
+    margin-right: 50px;
 }
 
 .mobile-menu{
@@ -73,7 +73,7 @@
         display: flex;
     }
     .header{
-        padding-left: 0;
+        width: 100%;
     }
     .web-menu{
         display: none;

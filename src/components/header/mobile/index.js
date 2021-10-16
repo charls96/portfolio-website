@@ -5,7 +5,7 @@ function Mobile({isOpen, setIsOpen}) {
     return (
         <div class='mobile'>
             <div class='close' onClick={() => setIsOpen(!isOpen)}>
-                <span class='close-menu'>close</span>
+                <span class='close-menu'></span>
             </div>
             <div class='mobile-options'>
                 <div class='mobile-option'>
