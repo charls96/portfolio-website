@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './header.css'
-import Mobile from './mobile'
-import Web from './web'
+import Mobile from './mobile/mobile.js'
+import Web from './web/web.js'
 
 
 function Header() {

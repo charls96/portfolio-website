@@ -1,0 +1,43 @@
+:root {
+    --bg-color-900: #2a2c2e;
+    --skin-color: #945555dc;
+    --text-300: #ccd6f6;
+}
+
+.about{
+    width: 100%;
+}
+
+.about-heading{
+   
+    
+}
+
+.about-heading h1{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: var(--skin-color)
+}
+.about-heading h2{
+    display: flex;
+    align-items: center;
+    font-size: 4.5vw;
+    margin: 0px 0;
+}
+
+.about-bottom{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-img{
+    height: 420px;
+    margin-left: 80px;
+}
+
+.about-info {
+    
+}

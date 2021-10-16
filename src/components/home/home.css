@@ -17,10 +17,7 @@ body{
     margin: auto;
     width: 90%;
 }
-.body{
-    margin-left: 30%;
-    margin-right: 30%;
-}
+
 
 
 /* @media only screen and (max-width: 1024px){
@@ -38,7 +35,6 @@ body{
         width: 100%;
     }
     .body{
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 100%;
     }
 }

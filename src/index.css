@@ -5,6 +5,11 @@ body {
   font-family: 'roboto mono', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+p{
+  line-height: 1.6;
 }
 
 code {
