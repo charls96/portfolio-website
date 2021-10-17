@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+/* :root {
+  --bg-color-mobile: #222425;
+  --bg-color-900: #2a2c2e;
+  --skin-color: #a13e3e;
+  --skin-color2: #79a617;
+  --text-300: #cfd9f8;
+  --text-400: #b9b9b9;
+} */
+:root {
+  --bg-color-mobile: #010409;
+  --bg-color-900: #0d1117;
+  --bg-header: #161b22;
+  --skin-color: #a13e3e;
+  --text-300: #c9d1d9;
+  --text-400: #8b949e;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: 'roboto mono', sans-serif;
@@ -9,6 +29,7 @@ body {
 }
 
 p{
+  color: var(--text-400);
   line-height: 1.6;
 }
 

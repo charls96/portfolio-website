@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Header from '../header/header.js'
 import Body from '../body/body.js'
 import Footer from '../footer/footer.js'
@@ -6,16 +6,17 @@ import './home.css'
 
 function Home() {
     return (
-        <div class="home">
-            <div class="header">
+        <div className="home">
+            <div className="header">
                 <Header />
             </div>
-            <div class="body">
+            <div className="body">
                 <Body />
             </div>
-            <div class="footer">
+            <div className="footer">
                 <Footer />
             </div>
+            
         </div>
     )
 }

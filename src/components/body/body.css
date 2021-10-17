@@ -1,13 +1,19 @@
-:root {
-    --bg-color-900: #2a2c2e;
-    --skin-color: #945555dc;
-    --text-300: #ccd6f6;
+.body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-.body{
-    padding-top: 150px;
-    padding-bottom: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
+@media only screen and (max-width: 1450px) {
+  .body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
-
+@media only screen and (max-width: 800px) {
+    .body{
+        padding-top: 0px;
+    }
+  }
+  

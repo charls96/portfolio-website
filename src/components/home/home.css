@@ -1,15 +1,10 @@
-:root {
-    --bg-color-900: #2a2c2e;
-    --skin-color: #945555dc;
-    --text-300: #ccd6f6;
-}
-
 html {
     scroll-behavior: smooth;            
 }
 body{
     background-color: var(--bg-color-900);
     color: var(--text-300);
+    overflow-x: hidden;
 }
 .home{
     display: flex;
@@ -18,23 +13,19 @@ body{
     width: 90%;
 }
 
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: var(--bg-color-900);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
 
-
-/* @media only screen and (max-width: 1024px){
-    .home{
-        width: 90%;
-    }
-    .body{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    
-} */
-@media only screen and (max-width: 900px){
-    .home{
-        width: 100%;
-    }
-    .body{
-        width: 100%;
-    }
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--text-400); 
 }

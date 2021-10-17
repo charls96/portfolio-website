@@ -7,7 +7,7 @@ import './body.css'
 
 function Body() {
     return (
-        <div classsName='body'>
+        <div className = 'body2'>
             <section id='#about'>
                 <About />
             </section>

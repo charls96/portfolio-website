@@ -1,0 +1,18 @@
+
+.social-contact{
+    display: flex;
+}
+.social-icons{
+    margin-top: 15px;
+}
+.social-icon{
+    height: 35px;
+    color: var(--text-400);
+}
+.social-icon:hover{
+    color: var(--skin-color);
+}
+
+#social-icon-margin{
+    margin-left: 10px;
+}

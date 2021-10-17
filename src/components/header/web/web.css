@@ -1,9 +1,3 @@
-:root {
-    --bg-color-900: #2a2c2e;
-    --skin-color: #945555dc;
-    --text-300: #ccd6f6;
-}
-
 .web{
     display: flex;
     flex: 1;

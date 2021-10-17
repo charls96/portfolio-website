@@ -1,31 +1,22 @@
-:root {
-    --bg-color-mobile: #232527;
-    --bg-color-900: #2a2c2e;
-    --skin-color: #945555dc;
-    --text-300: #ccd6f6;
-}
-body{
-  /* overflow: hidden; */
-}
-
-
 .mobile{
   background-color: var(--bg-color-mobile);
   height: 100vh;
   width: 50vw;
   position: absolute;
-  right: -9px;
+  right: -20px;
   top: -17px;
   padding: 39px 12px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
+
 
 .close{
     display: flex;
     justify-content: flex-end;
     margin-top: 40px;
-    margin-right: 65px;
+    margin-right: 76px;
 }
 
 .close-menu {
@@ -33,10 +24,7 @@ body{
     top: 40px;
     width: 32px;
     height: 32px;
-    opacity: 0.5;
-}
-.close-menu:hover {
-   opacity: 1;
+    /* opacity: 0.5; */
 }
 .close-menu:before, .close-menu:after {
   position: absolute;
@@ -74,9 +62,13 @@ body{
   color: var(--skin-color);
 }
 
+@media only screen and (max-width: 512px) {
+  .close{
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .mobile{
+    top: -23px;
+  }
 
-/* @media only screen and (max-width: 900px) {
-    .close-menu{
-        font-size: 24px;
-    }
-} */
+}
