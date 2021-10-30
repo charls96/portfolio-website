@@ -16,7 +16,10 @@ function Header() {
                     <Web />
                 </div>
                 <div className="mobile-menu">
-                    <div onClick={() => setIsOpen(!isOpen)}>
+                    <div onClick={() => {
+                        setIsOpen(!isOpen)
+                        document.body.style.overflowY = 'hidden';
+                        }}>
                         <span className="menu-logo">menu</span>
                     </div>
                     {isOpen&&<Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}

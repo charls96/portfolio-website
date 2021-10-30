@@ -7,7 +7,7 @@ function About() {
         <div className='about'>
             <div className='about-heading'>
                 <h1>Hi, my name is</h1>
-                <h2>Carlos Daniel.</h2>
+                <h2>Carlos Daniel</h2>
                 <h2>I'm a web developer</h2>
             </div>
             <div className='about-bottom'>

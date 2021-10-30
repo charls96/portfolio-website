@@ -2,9 +2,13 @@ import React from 'react'
 import './mobile.css'
 
 function Mobile({isOpen, setIsOpen}) {
+    
     return (
         <div className='mobile'>
-            <div className='close' onClick={() => setIsOpen(!isOpen)}>
+            <div className='close' onClick={() => {
+                setIsOpen(!isOpen)
+                document.body.style.overflowY = 'visible'
+                }}>
                 <span className='close-menu'></span>
             </div>
             <div className='mobile-options'>

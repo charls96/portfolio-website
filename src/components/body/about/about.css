@@ -11,7 +11,7 @@
 .about-heading h2 {
   display: flex;
   align-items: center;
-  font-size: 4.5vw;
+  font-size: 100px;
   margin: 0px 0;
 }
 
@@ -43,6 +43,12 @@
 .about-info span {
   font-weight: bold;
   color: var(--skin-color);
+}
+
+@media only screen and (max-width: 2200px) {
+  .about-heading h2 {
+    font-size: 4.5vw;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
