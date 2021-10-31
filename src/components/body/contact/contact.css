@@ -1,0 +1,33 @@
+.contact{
+    text-align: center;
+}
+
+.about-contact{
+    width: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contact-email-link{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-300);
+    font-family: 'roboto mono', sans-serif;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--text-400);
+    text-decoration: none;
+}
+
+.contact-email-link:hover{
+    background-color: #a13e3e9d;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-contact{
+        width: auto;
+    }
+}
