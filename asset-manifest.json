@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.84139197.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.fe51ee1e.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.fe51ee1e.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.8c4cf1b1.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.8c4cf1b1.js.map",
+    "static/js/2.13f2f88a.chunk.js": "/portfolio-website/static/js/2.13f2f88a.chunk.js",
+    "static/js/2.13f2f88a.chunk.js.map": "/portfolio-website/static/js/2.13f2f88a.chunk.js.map",
+    "static/js/3.48d72682.chunk.js": "/portfolio-website/static/js/3.48d72682.chunk.js",
+    "static/js/3.48d72682.chunk.js.map": "/portfolio-website/static/js/3.48d72682.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/main.84139197.chunk.css.map": "/portfolio-website/static/css/main.84139197.chunk.css.map",
+    "static/js/2.13f2f88a.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.13f2f88a.chunk.js.LICENSE.txt",
+    "static/media/carlosdaniel.png": "/portfolio-website/static/media/carlosdaniel.996bae13.png",
+    "static/media/laravelcrud.png": "/portfolio-website/static/media/laravelcrud.72cb0013.png",
+    "static/media/personalwebsitecarlosdaniel.png": "/portfolio-website/static/media/personalwebsitecarlosdaniel.1504cfa4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c4cf1b1.js",
+    "static/js/2.13f2f88a.chunk.js",
+    "static/css/main.84139197.chunk.css",
+    "static/js/main.fe51ee1e.chunk.js"
+  ]
+}
