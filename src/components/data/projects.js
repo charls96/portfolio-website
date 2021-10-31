@@ -5,8 +5,8 @@ export const ProjectData=[
         title: 'Personal Website',
         about: 'A website to show builts I have done and how I did them, also to summarize the skills I have and to have a site contact. I have used React for developing the website and css vanilla to style it.',
         tags:['React', 'CSS'],
-        demo: "http://wwww.carlosdaniel.xyz",
-        github: '#',
+        demo: "http://www.carlosdaniel.xyz",
+        github: 'https://github.com/charls96',
         image: require('../../assets/personalwebsitecarlosdaniel.png').default
     },
     {

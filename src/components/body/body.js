@@ -8,13 +8,13 @@ import './body.css'
 function Body() {
     return (
         <div className = 'body2'>
-            <section id='#about'>
+            <section id='about'>
                 <About />
             </section>
-            <section id='#project'>
+            <section id='project'>
                 <Projects />
             </section>
-            <section id='#contact'>
+            <section id='contact'>
                 <Contact />
             </section>
         </div>

@@ -20,11 +20,7 @@ function Web() {
                     Contact
                 </a>
             </div>
-            <div className='web-option'>
-                <a href='#resume'>
-                    Resume
-                </a>
-            </div>
+            
            
         </div>
     )

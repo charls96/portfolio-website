@@ -11,25 +11,29 @@ function Mobile({isOpen, setIsOpen}) {
                 }}>
                 <span className='close-menu'></span>
             </div>
-            <div className='mobile-options'>
-                <div className='mobile-option'>
+            <div className='mobile-options' >
+                <div className='mobile-option' onClick={() => {
+                setIsOpen(!isOpen)
+                document.body.style.overflowY = 'visible'
+                }}>
                     <a href='#about'>
                         About
                      </a>
                 </div>
-            <div className='mobile-option'>
+            <div className='mobile-option' onClick={() => {
+                setIsOpen(!isOpen)
+                document.body.style.overflowY = 'visible'
+                }}>
                  <a href='#project'>
                     Projects
                 </a>
             </div>
-            <div className='mobile-option'>
+            <div className='mobile-option' onClick={() => {
+                setIsOpen(!isOpen)
+                document.body.style.overflowY = 'visible'
+                }}>
                 <a href='#contact'>
                     Contact
-                </a>
-            </div>
-            <div className='mobile-option'>
-                <a href='#resume'>
-                    Resume
                 </a>
             </div>
             </div>
